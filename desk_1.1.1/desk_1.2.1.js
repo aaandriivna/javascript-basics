@@ -2,12 +2,12 @@ let userNames = [`Sofiia`];
 let userNameCorrect;
 do {
     userName = prompt("Enter your name");
-    console.log(`user name: ${userName}`);
+    console.log(`User name: ${userName}`);
 
     isNameCorrect = confirm(`Is your name ${userName}?`);
-    console.log(`user name correct: ${isNameCorrect}`);
+    console.log(`User name correct: ${isNameCorrect}`);
 }
 while (!isNameCorrect);
 
 userNames.push(userName);
-console.log(userNames);
+console.log(userNames); w
